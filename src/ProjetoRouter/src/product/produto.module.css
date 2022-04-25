@@ -1,0 +1,17 @@
+.contentProduto {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.contentProduto img {
+  margin: 10px;
+  max-width: 200px;
+}
+.preco {
+  display: flex;
+}
+.cifra {
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0 10px;
+}

@@ -1,0 +1,8 @@
+.navContent{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 60px;
+}
+.item {
+  margin: 10px 0;
+}
